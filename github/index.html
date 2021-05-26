@@ -383,6 +383,16 @@
 <p>In der Anwendung Github muss dann noch auf Repository-&gt;Push geklickt werden um das lokale branch mit dem am Server zu aktualisieren</p>
 <p>Github-Seite der Diplomarbeit</p>
 <p><a href="https://github.com/alexander45603/DA-Dokumentaion">DA-Github</a></p>
+<p>Etwas auf ein repository laden:
+Zuerst den Ordner (in dem Fall TestRep) in CMD öffnen
+Dann folgende Commands eingeben:</p>
+<ul>
+<li>git init</li>
+<li>git add <Filename.ending> (Adds the file to your local repository and stages it for commit.Unstage: 'git reset --soft HEAD~1' and commit and add the file again.)</li>
+<li>git commit -m "&lt;Name des Commits" (Commits the tracked changes and prepares them to be pushed to a remote repository)</li>
+<li>git branch -M main </li>
+<li>git push -u origin main (Pushes the changes in your local repository up to the remote repository you specified as the origin)</li>
+</ul>
                 
               
               
